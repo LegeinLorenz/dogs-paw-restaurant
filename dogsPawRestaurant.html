@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dog's Paw Restaurant</title>
+  <style>
+    body {
+      text-align: center;
+      margin: 0;
+    }
+
+    header {
+      background: url("https://cdn.pixabay.com/photo/2016/09/13/13/04/abstract-1667194_1280.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      align-items: center;
+    }
+
+    header h1 {
+      flex: 1;
+      margin-left: 20px;
+    }
+
+    header nav {
+      margin-right: 20px;
+      font-weight: bold;
+    }
+
+    header nav a {
+      background-color: bisque;
+      text-decoration: none;
+      color: black;
+
+    }
+
+    header nav a li {
+      background-color: white;
+      height: 30px;
+      width: 100px;
+      border-radius: 50%;
+      padding-top: 7px;
+    }
+
+    main {
+      background-color: #f6F6EB;
+      padding-top: 50px;
+      margin: 0;
+      padding-bottom: 50px;
+    }
+
+    ul,
+    ol {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    footer {
+      background: url("https://as2.ftcdn.net/v2/jpg/03/10/57/03/1000_F_310570364_lkEwKVZOz3Oeseit3dCjyXgR4gru3gJf.jpg");
+      height: 100px;
+      background-size: cover;
+      background-position: center;
+      margin: 0;
+      padding-top: 50px;
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <figure>
+      <img style="width: 150px;"
+        src="https://i.pinimg.com/originals/34/1d/ae/341daeddebdc03299237558357bbeb52.png"
+        alt="Juicy Beef Hugs"
+        id="header-img">
+    </figure>
+    <h1>Welcome to Dog's Paw 🐾 Restaurant</h1>
+    <nav>
+      <ul>
+        <a href="#menu-section">
+          <li>Menu</li>
+        </a>
+        <a href="#order-section">
+          <li>Doggy Bag</li>
+        </a>
+      </ul>
+    </nav>
+    <br>
+  </header>
+
+  <main>
+    <!-- Start Section menu-->
+    <section id="menu-section">
+      <h2>Menu</h2>
+      <p>
+        At Dog's Paw, we've curated a menu with love and dedication to make your furry friend's tail wag up and
+        down!<br>
+        We offer a variety of delicious and healthy dishes designed specifically to meet the unique needs and tastes of
+        dogs.
+      </p>
+      <br>
+      <br>
+      <!-- Start Unorded list with several articles-->
+      <ul>
+        <ul>
+          <article>
+            <h3>🍖 Canine Entrées:</h3>
+            <li>
+              <b>Juicy Beef Hugs:</b> &nbsp;&nbsp;&nbsp; <i>$19,95</i>
+              <br>
+              Tender pieces of beef, steamed and served with a side of crunchy carrots.<br>
+              Perfect for dogs who enjoy a savory treat.
+              <figure>
+                <img style="width: 150px;"
+                  src="https://www.spendwithpennies.com/wp-content/uploads/2021/01/How-to-Cook-Juicy-Steaks-in-the-Oven-SpendWithPennies-11-500x500.jpg"
+                  alt="Juicy Beef Hugs">
+              </figure>
+            </li>
+            <br>
+            <li>
+              <b>Chicken Fiesta with Veggie Mix:</b> &nbsp;&nbsp;&nbsp; <i>$23,95</i>
+              <br>
+              Lean chicken meat combined with a colorful medley of seasonal
+              vegetables, steamed to perfection.
+              <figure>
+                <img style="width: 150px;"
+                  src="https://www.wellplated.com/wp-content/uploads/2018/01/Fiesta-Chicken-Recipe.jpg"
+                  alt="Chicken Fiesta">
+              </figure>
+            </li>
+            <br>
+            <li>
+              <b>Salmon Surprise:</b> &nbsp;&nbsp;&nbsp; <i>$28,95</i>
+              <br>
+              Fresh salmon fillet, delicately baked and served with creamy mashed potatoes.<br>
+              A true delight for dogs with refined palates.
+              <figure>
+                <img style="width: 150px;"
+                  src="https://www.acouplecooks.com/wp-content/uploads/2023/05/Salmon-Steaks-005.jpg"
+                  alt="Salmon Suprise">
+              </figure>
+            </li>
+          </article>
+          <br>
+          <br>
+        </ul>
+
+        <ul>
+          <article>
+            <h3>🥕 Healthier Options:</h3>
+            <li>
+              <b>Crunchy Carrot Sticks:</b> &nbsp;&nbsp;&nbsp; <i>$12,95</i>
+              <br>
+              Delicious carrot sticks, a natural toothbrush for your furry buddy and a
+              healthy snack to relish.
+              <figure>
+                <img style="width: 150px;"
+                  src="https://assets.bonappetit.com/photos/57ae36ecf1c801a1038bd133/1:1/w_2560%2Cc_limit/carrot-salad-with-yogurt-and-coriander.jpg"
+                  alt="Crunchy Carrot Sticks">
+              </figure>
+            </li>
+            <br>
+            <li>
+              <b>Peanut Butter Pretzel:</b> &nbsp;&nbsp;&nbsp; <i>$15,95</i>
+              <br>
+              A blend of whole-grain pretzels infused with peanut butter, a tasty and
+              energy-packed treat.
+              <figure>
+                <img style="width: 150px;"
+                  src="https://chocolatewithgrace.com/wp-content/uploads/2017/11/CWG-Pretzel-Buckeyes-4-1-of-1-scaled.jpg"
+                  alt="Peanut Butter Pretzel">
+              </figure>
+            </li>
+          </article>
+          <br>
+          <br>
+        </ul>
+
+
+        <ul>
+          <article>
+            <h3>🍦 Desserts:</h3>
+            <li>
+              <b>Frozen Banana Delight:</b> &nbsp;&nbsp;&nbsp; <i>$12,95</i>
+              <br>
+              Frozen banana slices, a refreshing and sweet reward on warm days.
+              <figure>
+                <img style="width: 150px;"
+                  src="https://i0.wp.com/www.kiwiandcarrot.com/wp-content/uploads/2016/07/BLOG-banana-pops2.jpg?fit=680%2C941&ssl=1"
+                  alt="Frozen Banana Delight">
+              </figure>
+            </li>
+            <li>
+              <b>Yogurt and Blueberry Bites:</b> &nbsp;&nbsp;&nbsp; <i>$17,95</i>
+              <br>
+              A combination of yogurt and blueberries, rolled into small bites for a
+              tasty and nutritious finale.
+              <figure>
+                <img style="width: 150px;"
+                  src="https://www.mrsjoneskitchen.com/wp-content/uploads/2019/01/blueberry-yogurt-drops-2.jpg"
+                  alt="Yoghurt and Blueberry Bites">
+              </figure>
+            </li>
+          </article>
+        </ul>
+      </ul>
+
+      <!-- End Unorded list with several articles-->
+
+      <p>
+        We're committed to the health and happiness of your furry companion. <br>
+        Each dish is thoughtfully crafted with high-quality ingredients to ensure your dog not only enjoys but also
+        receives nutrients beneficial to their
+        well-being. <br>
+        Browse our complete menu and let your dog pick their favorite flavors!
+        <br>
+        <br>
+        Bon appétit, woof times!
+      </p>
+    </section>
+    <!-- End Section menu-->
+    <br>
+    <br>
+
+    <!-- Start Section order-->
+    <section id="order-section">
+      <h2>Pawsome Take-Away Delights!</h2>
+      <p>
+        Can't dine in? No worries! <br>
+        Treat your furry friend to the same delectable dishes from Dog's Paw right at home. <br>
+        Our take-away menu ensures that your dog can savor our wholesome creations wherever they're most comfortable.
+      </p>
+
+
+      <h2>Place your order:</h2>
+
+      <!-- Start Form order-->
+      <form>
+        <label for="beef-hugs">Total Juicy Beef Hugs:</label>
+        <input type="number" id="beef-hugs" name="beef-hugs" min="0"><br>
+
+        <label for="chicken-fiesta">Total Chicken Fiesta with Veggie Mix:</label>
+        <input type="number" id="chicken-fiesta" name="chicken-fiesta" min="0"><br>
+
+        <label for="salmon-surprise">Total Salmon Surprise:</label>
+        <input type="number" id="salmon-surprise" name="salmon-surprise" min="0"><br>
+
+        <h3>Healthier choice:</h3>
+        <label for="carrot-sticks">Crunchy Carrot Sticks</label>
+        <input type="checkbox" id="carrot-sticks" name="sides[]" value="carrot-sticks"><br>
+
+        <label for="peanut-pretzel">Peanut Butter Pretzel</label>
+        <input type="checkbox" id="peanut-pretzel" name="sides[]" value="peanut-pretzel"><br>
+
+        <h3>Dessert:</h3>
+        <label for="banana-delight">Frozen Banana Delight</label>
+        <input type="checkbox" id="banana-delight" name="addons[]" value="banana-delight"><br>
+
+        <label for="blueberry-bites">Yogurt and Blueberry Bites</label>
+        <input type="checkbox" id="blueberry-bites" name="addons[]" value="blueberry-bites"><br>
+
+        <h3>Some special request?</h3>
+        <label for="special-requests"></label>
+        <textarea id="special-requests" name="special-requests" rows="4" cols="50"></textarea><br>
+
+        <button type="submit">Go To Checkout</button>
+      </form>
+      <!-- End Form order-->
+    </section>
+    <!-- End Section order-->
+  </main>
+  <footer>
+    <p>Made with love by Gratch</p>
+  </footer>
+</body>
+</html>
